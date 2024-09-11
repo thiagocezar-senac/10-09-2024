@@ -397,3 +397,151 @@ h2 {
 .bolder {
     font-weight: 900;
 }
+
+/* 40 */
+
+.small {
+    font-size: 15px;
+}
+
+.big{
+    font-size: 70px;
+}
+
+/* 41 */
+
+.inline-box {
+    width: 50px;
+    height: 50px;
+    background-color: #a5f;
+    margin: 10px;
+    /* display: inline-block; */
+}
+
+.block {
+    background-color: #952;
+    margin: 10px;
+    color: white;
+    /* display: block; */
+}
+
+/* 42 */
+
+.invisible {
+    display: none;
+}
+
+/* 43 */
+
+.static {
+    position: static;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+}
+
+/* 44 */
+
+.relative {
+    position: relative;
+    background-color: plum;
+    color: #952;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* 45 */
+
+.absolute {
+    position: absolute;
+    background-color: rgb(160, 221, 173);
+    color: #952;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 25px;
+}
+
+/* 46 */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #a5f;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* 47 */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #55a398;
+    border: 1px solid yellow;
+    position: fixed;
+    top: 100px;
+    right: 200px;
+}
+
+/* 48 */
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    background-color: #00eaff;
+    border: 2px solid green;
+    position: sticky;
+    top: 10px;
+}
+
+/* 49 */
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: fuchsia;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #952;
+    z-index: 1;
+}
+
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: yellowgreen;
+    z-index: 2;
+}
